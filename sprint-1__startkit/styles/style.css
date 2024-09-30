@@ -3,6 +3,12 @@
   padding:0;
 }
 
+/*
+div, h1, h3, th, td {
+    border: 1.5px red solid;
+}
+*/
+
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -91,13 +97,14 @@
     
 }
 
+
 .description {
     margin-top: 100px;
-   display: flex;
-   justify-content: center
+    display: flex;
+    justify-content: center
 }
 
-.two-columns {
+.description__two-columns {
     width: 80%;
     position: relative;
     display: flex;
@@ -105,7 +112,7 @@
     gap: 50px;
 }
 
-.two-columns__brief {
+.description__two-columns__brief {
     margin: 0;
     width: 175px;
     display: inline-block;
@@ -115,7 +122,7 @@
     color:  #2f80ed;
 }
 
-.two-columns__main-text {
+.description__two-columns__main-text {
     width: 80%;
     min-width: 784px;
     display: flex;
@@ -124,21 +131,72 @@
     gap: 30px;
 }
 
-.two-columns__paragraph {
+.description__two-columns__paragraph {
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
 }
 
-.two-columns__span-accent {
+.description__two-columns__paragraph__span-accent {
     line-height: 34px;
     font-size: 24px;
     font-weight: 600;
 }
 
+
 .digits {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.digits__section-title {
+    width: 60%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.digits__section-subtitle {
+    width: 60%;
+    text-align: center;
+    margin: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.digits__table {
+    width: 1100px;
+	border-spacing: 20px 60px;
+	border-collapse: separate;
+}
+
+.digits__table__cell {
+    width: 250px;
+    align-content: flex-start;
+}
+
+.digits__table__cell_spacing {
+    margin-bottom: 20px;
+}
+
+.digits__table__cell__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.digits__table__cell__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+}
+
 
 .table__cell_theme_dark {
     width: 200px;
