@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.block_logo {
+.header__block_logo {
     width: 228px;
     height: 32px;
     background-image: url(../images/logo_place_header.svg);
@@ -37,24 +37,27 @@
     position: absolute;
 }
 
-.title {
+.header__title {
     width: 730px;
     font-size: 102px;
     z-index: 4;
     margin: 0;
+    font-weight: 600;
 }
 
-.subtitle {
+.header__subtitle {
     width: 388px;
     font-size: 18px;
     padding-bottom: 30px;
     z-index: 3;
     position: absolute;
+    font-weight: normal;
     bottom: 0;
 }
 
-.subtitle__link {
+.header__subtitle__link {
     text-decoration: none;
+    color:  #2f80ed;
 }
 
 .block_left_margin {
@@ -73,7 +76,6 @@
     bottom: 0;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
     height: 568px;
     width: 568px;
@@ -85,7 +87,59 @@
     margin-top: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.content {
+    
+}
+
+.description {
+    margin-top: 100px;
+   display: flex;
+   justify-content: center
+}
+
+.two-columns {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.two-columns__brief {
+    margin: 0;
+    width: 175px;
+    display: inline-block;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color:  #2f80ed;
+}
+
+.two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.two-columns__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.digits {
+    margin-top: 100px;
+}
+
 .table__cell_theme_dark {
     width: 200px;
     color: white;
