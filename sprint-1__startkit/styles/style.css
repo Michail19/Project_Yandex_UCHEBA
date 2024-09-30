@@ -23,7 +23,7 @@
     background-image: url(../images/logo_place_header.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 30px;
+    margin-top: 30px;
     position: absolute;
 }
 
@@ -31,7 +31,9 @@
     width: 730px;
     font-size: 102px;
     display: flex;
-    z-index: 2;
+    align-items: center;
+    z-index: 3;
+    padding: 0;
 }
 
 .subtitle {
@@ -45,8 +47,8 @@
     text-decoration: none;
 }
 
-.block_left_padding {
-    padding-left: 64px;
+.block_left_margin {
+    margin-left: 64px;
 }
 
 .header__main-illustration {
@@ -56,8 +58,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     right: 0;
+    bottom: 0;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -67,6 +70,9 @@
     background-color:  #2f80ed;
     position: absolute;
     right: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
