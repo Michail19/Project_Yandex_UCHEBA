@@ -368,7 +368,7 @@ div, h1, h3, th, td {
     color: white;
     position: absolute;
     bottom: 0;
-    padding: 18px 0;
+    margin: 18px 0;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
@@ -394,6 +394,7 @@ div, h1, h3, th, td {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 20px 0 16px 0;
 }
 
 .footer__column-link {
@@ -402,7 +403,9 @@ div, h1, h3, th, td {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .footer__social-icon_yt {
@@ -420,7 +423,6 @@ div, h1, h3, th, td {
     height: 16px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 5px;
     margin-right: 10px;
 }
 
@@ -430,6 +432,5 @@ div, h1, h3, th, td {
     height: 16px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 5px;
     margin-right: 10px;
 }
