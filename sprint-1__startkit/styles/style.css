@@ -266,6 +266,7 @@ div, h1, h3, th, td {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .kaufman__section-title_theme_dark {
@@ -331,6 +332,104 @@ div, h1, h3, th, td {
 }
 
 
-.kaufman__footer {
+.footer {
+    background-color: #1f1f1f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__columns {
+    width: 90%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    min-height: 350px;
+    display: flex;
+    position: relative;
+}
+
+.footer__columns__copyright {
+    position: relative;
+    flex-basis: 711px;
+}
+
+.footer__logo {
+    background-image: url("../images/logo_place_footer.svg");
+    width: 228px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+    top: 0;
+    position: absolute;
+}
+
+.footer__author {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.footer__columns__info {
+}
+
+.footer__columns__social {
+    position: absolute;
+    right: 0;
+}
+
+.footer__column-heading {
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer__column-links {
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer__column-link {
+    color: #f2f2f2;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
     
+}
+
+.footer__social-icon_yt {
+    background-image: url("../images/youtube_color_white.svg");
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.footer__social-icon_vk {
+    background-image: url("../images/vk_color_white.svg");
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.footer__social-icon_tt {
+    background-image: url("../images/tiktok_color_white.svg");
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-right: 10px;
 }
