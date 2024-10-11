@@ -267,6 +267,18 @@ div, h1, h3, th, td {
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    opacity: 0;
+}
+
+.kaufman_transition {
+    opacity: 1;
+    background-color: #1f1f1f;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kaufman {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
 }
 
 .kaufman__section-title_theme_dark {
@@ -305,6 +317,7 @@ div, h1, h3, th, td {
     color: white;
     margin-right: 0;
     margin-top: 80px;
+    align-content: flex-start;
 }
 
 .kaufman__table__cell__heading_theme_dark {
