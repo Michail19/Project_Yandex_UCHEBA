@@ -1,0 +1,7 @@
+.description__two-columns {
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}

@@ -1,0 +1,11 @@
+.header__block_logo {
+    width: 228px;
+    height: 32px;
+    background-image: url(../../../../images/logo_place_header.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    top: 0;
+    z-index: 5;
+    position: absolute;
+}

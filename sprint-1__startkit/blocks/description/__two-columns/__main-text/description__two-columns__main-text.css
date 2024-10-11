@@ -1,0 +1,8 @@
+.description__two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}

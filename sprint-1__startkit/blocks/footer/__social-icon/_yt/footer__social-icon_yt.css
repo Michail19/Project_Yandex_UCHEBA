@@ -1,0 +1,8 @@
+.footer__social-icon_yt {
+    background-image: url("../../../../images/youtube_color_white.svg");
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
