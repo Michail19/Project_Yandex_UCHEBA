@@ -45,4 +45,24 @@
 }
 
 
+.video {
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.video__video-iframe {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.oakley {
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    margin-top: -60px;
+}

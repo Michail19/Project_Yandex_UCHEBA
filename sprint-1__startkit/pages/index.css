@@ -19,11 +19,12 @@
 @import url("../blocks/section-title/section-title.css");
 
 @import url("../blocks/description/description.css");
-@import url("../blocks/description/__two-columns/description__two-columns.css");
-@import url("../blocks/description/__two-columns/__paragraph/description__two-columns__paragraph.css");
-@import url("../blocks/description/__two-columns/__paragraph/__span-accent/description__two-columns__paragraph__span-accent%20.css");
-@import url("../blocks/description/__two-columns/__main-text/description__two-columns__main-text.css");
-@import url("../blocks/description/__two-columns/__brief/description__two-columns__brief%20.css");
+
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/two-columns/__paragraph/__span-accent/two-columns__paragraph__span-accent.css");
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
+@import url("../blocks/two-columns/__brief/two-columns__brief.css");
 
 @import url("../blocks/digits/digits.css");
 @import url("../blocks/digits/__table/digits__table.css");
