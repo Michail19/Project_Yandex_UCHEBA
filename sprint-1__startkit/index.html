@@ -9,15 +9,15 @@
 </head>
 <body class="root">
   <div class="page">
-    <header class="header">
+    <header class="header"  id="start">
         <div class="header__block header__block_logo left_margin" alt="Яндекс.Практикум" ></div>
         <div class="header__title left_margin">Научиться учиться</div>
-        <div class="header__subtitle left_margin">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="" class="header__subtitle__link"> Узнать →</a></div>
+        <div class="header__subtitle left_margin">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#content" class="header__subtitle__link link-animation"> Узнать →</a></div>
         <div  class="header__main-illustration" alt="Опять двойка!"></div>
         <div  class="header__square-pic rotation" alt="Квадрат"></div>
     </header>
       
-    <main class="content">
+    <main class="content" id="content">
       <section class="description">
           <div class="two-columns">
               <h1 class="two-columns__brief">Главные проблемы в обучении</h1>
@@ -62,7 +62,7 @@
         </div>
     </section>
         
-    <section class="video">
+    <section class="video" id="teacher">
         <h1 class="section-title">Видео нa TED</h1>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__video-iframe">
@@ -87,12 +87,12 @@ src="https://www.youtube.com/embed/arj7oStGLkU"
       <section class="feynman">
           <div class="feynman__title">Метод Фейнмана</div>
           <div class="feynman__subtitle">Выучить и не забыть.</div>
-          <a class="feynman__link" href="#">Подробнее →</a>
+          <a class="feynman__link link-animation" href="#digits">Подробнее →</a>
           <div class="feynman__feynman_img" alt="Портрет Фейнмана"></div>
       </section>
         
         
-      <section class="digits">
+      <section class="digits" id="digits">
           <h1 class="section-title">Цифры и факты</h1>
           <h3 class="section-subtitle">Про учёбу и мозг</h3>
           <table class="digits__table">
@@ -138,6 +138,17 @@ src="https://www.youtube.com/embed/arj7oStGLkU"
       </section>
         
         <section class="khan">
+            <div class="khan__container">
+                <div class="khan__container__author">Салман Хан</div>
+                <div class="khan__container__title">Весь мир — школа</div>
+                <div class="khan__container__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</div>
+                <div class="khan__container__quote-author">Джордж Лукас</div>
+                <div class="khan__container__quote-author-subline">Кинорежиссер, продюсер</div>
+                <div class="khan__container__book-container">
+                    <div class="khan__container__book-pic" alt="Книга Салмана Хана"></div>
+                    <a class="khan__container__buy-link link-animation" href="https://www.labirint.ru/books/483575/" target="_blank">Купить книгу →</a>
+                </div>
+            </div>
         </section>
 
       <section class="kaufman">
@@ -189,10 +200,18 @@ src="https://www.youtube.com/embed/arj7oStGLkU"
                   </td>
               </tr>
           </table>
-          <div class="kaufman__triangle" alt="Треугольник"></div>
+          <div class="kaufman__triangle rotation" alt="Треугольник"></div>
       </section>
         
         <section class="resources">
+          <h1 class="section-title">Полезные ресурсы</h1>
+          <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+            <div class="resources__logo-zone">
+                <a href="https://arzamas.academy/" target="_blank" class="link-animation"><img class="resources__logo-zone__logo" src="images/logo/resources-arzamas.svg"/></a>
+                <a href="https://nplus1.ru/" target="_blank" class="link-animation"><img class="resources__logo-zone__logo" src="images/logo/resources-n1.svg"/></a>
+                <a href="https://store.strelka.com/en/merch" target="_blank" class="link-animation"><img class="resources__logo-zone__logo" src="images/logo/resources-strelka.svg"/></a>
+                <a href="https://polka.academy/" target="_blank" class="link-animation"><img class="resources__logo-zone__logo" src="images/logo/resources-polka.svg"/></a>
+            </div>
         </section>
     </main>
       
@@ -205,17 +224,17 @@ src="https://www.youtube.com/embed/arj7oStGLkU"
             <div class="footer__columns__info">
                 <div class="footer__column-heading">О Практикуме</div>
                 <div class="footer__column-links">
-                    <a class="footer__column-link" href="#">Главная</a>
-                    <a class="footer__column-link" href="#">Концепция</a>
-                    <a class="footer__column-link" href="#">Наставники</a>
+                    <a class="footer__column-link link-animation" href="#start">Главная</a>
+                    <a class="footer__column-link link-animation" href="#content">Концепция</a>
+                    <a class="footer__column-link link-animation" href="#teacher">Наставники</a>
                 </div>
             </div>
             <div class="footer__columns__social">
                 <div class="footer__column-heading">Соцсети</div>
                 <div class="footer__column-links">
-                    <a class="footer__column-link" href="#"><div class="footer__social-icon_yt" alt="YT"></div><div>YouTube</div></a>
-                    <a class="footer__column-link" href="#"><div class="footer__social-icon_vk" alt="VK"></div> <div>ВКонтакте</div></a>
-                    <a class="footer__column-link" href="#"><div class="footer__social-icon_tt" alt="TT"></div> <div>TikTok</div></a>
+                    <a class="footer__column-link link-animation" href="https://www.youtube.com/" target="_blank"><div class="footer__social-icon_yt" alt="YT"></div><div>YouTube</div></a>
+                    <a class="footer__column-link link-animation" href="https://vk.com/video/@vkvideo" target="_blank"><div class="footer__social-icon_vk" alt="VK"></div> <div>ВКонтакте</div></a>
+                    <a class="footer__column-link link-animation" href="https://www.tiktok.com/ru-RU/" target="_blank"><div class="footer__social-icon_tt" alt="TT"></div> <div>TikTok</div></a>
                 </div>
             </div>
         </div>

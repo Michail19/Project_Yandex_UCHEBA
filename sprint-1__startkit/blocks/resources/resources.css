@@ -1,0 +1,6 @@
+.resources {
+    margin: 100px auto 217px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

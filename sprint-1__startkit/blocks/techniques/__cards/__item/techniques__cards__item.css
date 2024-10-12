@@ -1,0 +1,9 @@
+.techniques__cards__item {
+    max-width: 220px;
+    min-width: 200px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}

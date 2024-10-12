@@ -1,0 +1,6 @@
+.video {
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

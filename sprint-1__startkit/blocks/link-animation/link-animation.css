@@ -1,0 +1,9 @@
+.link-animation {
+    transition: opacity .5s ease-in;
+    opacity: 1;
+}
+
+.link-animation:hover {
+    transition: opacity .5s ease-out;;
+    opacity: .5;
+}
